@@ -1,0 +1,111 @@
+$c_primary_light: #FFF0F2;
+ 
+.page-container {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 120px;
+	.page-left {
+		width: 60%;
+		padding-left: 60px;
+		display: flex;
+		flex-wrap: wrap;
+		.images {
+			display: flex;
+			flex-wrap: wrap;
+			.image-container {
+				position: relative;
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+				}
+				p {
+					position: absolute;
+					bottom: 30px;
+					right: 0px;
+					text-align: right; 
+					background: rgba(255,255,255,0.9); 
+					padding: 10px 20px; 
+					text-transform: uppercase;
+					letter-spacing: 3px;
+				}
+			}
+			.portrait {
+				width: 50%;
+				height: auto;
+			}
+		}
+	}
+	.page-right {
+		width: 40%;
+		min-width: 315px;
+		padding: 0px 60px;
+		display: flex;
+		flex-direction: column;
+		h1 {
+			margin-bottom: 30px;
+		}
+		p {
+			padding-bottom: 30px;
+		}
+		.button {
+			display: block; 
+			float: left;
+			clear: left;
+		}
+	}
+}
+.simple {
+	padding: 30px 0px;
+}
+.fixed {
+	position: fixed;
+	right: 0px;
+	top: 60px;
+}
+.bottom {
+	justify-content: flex-end;
+}
+main iframe {
+	margin: 0 auto;
+    width: 100%;
+}
+
+#schedulista-widget-00 {
+	max-width: 960px;
+	margin: 0 auto;
+}
+@media (max-width: 800px) {
+	.page-container { 
+		.page-left {
+			width: 100%;
+			padding: 0px;
+			order: 2;
+			.images .portrait {
+				width: 100%;
+			}
+		}
+		.page-right {
+			order: 1;
+			width: 100%;
+			padding: 0px 30px 60px;
+		} 
+	}
+	main {
+		.contact {
+			a { 
+				order: 2;
+			}
+			.hero-section-text {
+				order: 1;
+				h2 { 
+					margin-top: 30px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,125 @@
+{
+  "_args": [
+    [
+      "@directus/sdk-js",
+      "/var/www/html/emilyrusson.com/tangledtulle/js"
+    ]
+  ],
+  "_from": "@directus/sdk-js@latest",
+  "_hasShrinkwrap": false,
+  "_id": "@directus/sdk-js@5.2.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@directus/sdk-js",
+  "_nodeVersion": "10.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/sdk-js_5.2.1_1549295059162_0.6865434081155781"
+  },
+  "_npmUser": {
+    "email": "rijkvanzanten@me.com",
+    "name": "rijk"
+  },
+  "_npmVersion": "6.7.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "@directus/sdk-js",
+    "raw": "@directus/sdk-js",
+    "rawSpec": "",
+    "scope": "@directus",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/@directus/sdk-js/-/sdk-js-5.2.1.tgz",
+  "_shasum": "6dfddf522f8e4d86c3ccf0166bce8c58efa63518",
+  "_shrinkwrap": null,
+  "_spec": "@directus/sdk-js",
+  "_where": "/var/www/html/emilyrusson.com/tangledtulle/js",
+  "author": {
+    "email": "rijkvanzanten@me.com",
+    "name": "Rijk van Zanten"
+  },
+  "browser": "dist/directus-sdk.umd.min.js",
+  "bugs": {
+    "url": "https://github.com/directus/directus-sdk-javascript/issues"
+  },
+  "dependencies": {
+    "argument-validator": "^0.1.0",
+    "axios": "^0.18.0",
+    "base-64": "^0.1.0",
+    "qs": "^6.5.1"
+  },
+  "description": "Directus SDK for JavaScript (Node and Browser)",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "chai": "^4.2.0",
+    "chai-datetime": "^1.5.0",
+    "jsonwebtoken": "^8.4.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "prettier": "^1.15.3",
+    "sinon": "^7.1.1",
+    "sinon-chai": "^3.3.0",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 7,
+    "integrity": "sha512-kn2gYZv0ii00iX56DVCAy/koraz3dcTjwSosm+kTAT9FUt/oeCO8P4tYNO33jq3zDxicWIOJraLgUfhIUju7uw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcWF3TCRA9TVsSAnZWagAAKW8P/3O9NreRGD/bpx/Z6GZv\nXGoI7TaHH76m4x34t4FAdEFOt6eXItnzzRBvvwHWw/qeEMQpYqz9Zw2FD3i0\nxicIsIBxnAMuW5W0LU1yEAY9h9xrVSvKaES+znLO77qAR5P+zCY0ubb9mVyF\nWm+AdfkKGmTaw1psX+02nsYN0eHILKM80/wcsz2RhARiD/frumg84ekBh50U\nAXVg5JENWUKjM5TeJHJ3GaRMd8HiI6GtXcymGWCASmi4AT5ZsWH+n16BbbDn\ntFGZn9coO4sDMQwvQWwqWzrIqlTs/nLlVQ1svcNTrnyI3IQRteNOqPFVhYN4\nnh/Hn9onp4KTW7lfD0AnsoQANo8jheTaCmEInauvp2OqmRqJbo25AqMsLmuu\n1sQ7siRO31qveeavOt3offBjKyj3EnXzyGbyVw3OTxwo8SkezLOO+EJQi6wk\nH0pY6HxE//WT8NghWFA59dqkMVaMkIpsbEX9ksKIIhYQGCGtNyzur6XN5v3b\nPrgG7Zda/d8fl39mgn3G0GVrsXN9/Gc0fuO+2nXp+uccSB/LKCZcMx5sVph5\nUaTLC7OZnoGswT+o1AAYXt+uYsQJjwAwzIvG1Hcf4JC2NYGMYEQhZ/JChkEx\nGCXQ1PmGtfok2l33jHCF1Fn5LV9hsKqGlPfdeUjWZ/y4ltaxlArqrsWxhHFs\nCdZ2\r\n=y07q\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "6dfddf522f8e4d86c3ccf0166bce8c58efa63518",
+    "tarball": "https://registry.npmjs.org/@directus/sdk-js/-/sdk-js-5.2.1.tgz",
+    "unpackedSize": 628637
+  },
+  "gitHead": "afa1c4a556cecef1dc5ebcb37992df69903e80f3",
+  "homepage": "https://docs.directus.io/sdk/js.html",
+  "keywords": [
+    "api",
+    "client",
+    "cms",
+    "directus",
+    "headless",
+    "javascript",
+    "node",
+    "sdk"
+  ],
+  "license": "GPL-3.0",
+  "main": "dist/directus-sdk.js",
+  "maintainers": [
+    {
+      "name": "benhaynes",
+      "email": "ben@rngr.org"
+    },
+    {
+      "name": "rijk",
+      "email": "rijkvanzanten@me.com"
+    },
+    {
+      "name": "wellingguzman",
+      "email": "hola@wellingguzman.com"
+    }
+  ],
+  "name": "@directus/sdk-js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/directus/sdk-js.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --progress --colors --watch",
+    "fix": "prettier --write src/*.js",
+    "test": "mocha --exit --recursive"
+  },
+  "version": "5.2.1"
+}
