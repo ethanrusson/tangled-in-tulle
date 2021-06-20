@@ -12,37 +12,37 @@ switch(pageURL){
 
 		var bridalLink = true;
 		var summer = false;
-		getHours(bridalLink, summer);
+		// getHours(bridalLink, summer);
 		
     	break;
 		
 	case "/bridal/":
 
 		var page = "bridal";
-		getPhotos(page);
-		getText(page);
+		// getPhotos(page);
+		// getText(page);
 		
 		break;
 		
 	case "/prom/":
 
 		var page = "prom";
-		getPhotos(page);
-		getText(page);
+		// getPhotos(page);
+		// getText(page);
 		var bridalLink = false;
 		var summer = false;
-		getHours(bridalLink, summer);
+		// getHours(bridalLink, summer);
 		
 		break;
 		
 	case "/about/":
 		
 		var page = "about";
-		getPhotos(page);
-		getText(page);
+		// getPhotos(page);
+		// getText(page);
 		var bridalLink = true;
 		var summer = false;
-		getHours(bridalLink, summer);
+		// getHours(bridalLink, summer);
 		
 		break;
 	
@@ -50,7 +50,7 @@ switch(pageURL){
 		
 		var bridalLink = true;
 		var summer = false;
-		getHours(bridalLink, summer);
+		// getHours(bridalLink, summer);
 		
 		break;
 }
