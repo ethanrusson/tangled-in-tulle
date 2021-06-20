@@ -39,7 +39,7 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  margin: 12px;
+  padding: 12px;
 }
 
 .page-container .page-left .images .image-container p {
