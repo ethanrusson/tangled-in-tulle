@@ -75,6 +75,12 @@
   margin-bottom: 30px;
 }
 
+.page-container .page-right h2 {
+  line-height: 1;
+  font-size: 30px;
+  text-align: left;
+}
+
 .page-container .page-right p {
   padding-bottom: 30px;
 }
