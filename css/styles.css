@@ -418,7 +418,7 @@ nav .menu-icon span::after {
 }
 
 main .hero-section {
-  padding: 30px 0px;
+  padding: 60px 0px 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
